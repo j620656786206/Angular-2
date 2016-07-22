@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="H:\Dropbox\遊戲\作業\S6.5\Angular2\Section12\angular-2-beta-boilerplate-master\Angular-2" vcs="Git" />
   </component>
 </project>
