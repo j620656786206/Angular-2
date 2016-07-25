@@ -16,10 +16,9 @@ import {IntroComponent} from "./music/album-intro.component";
       <div class="info">
         <info-app></info-app>
       </div>
-      <div class="intro">
+    </div>
+    <div class="intro">
         <intro-app></intro-app>
-      </div>
-      
     </div>
     
     `,
