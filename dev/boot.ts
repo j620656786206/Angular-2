@@ -4,5 +4,6 @@ import {AppComponent} from "./app.component";
 import {ROUTER_PROVIDERS} from "angular2/router";
 import {HTTP_PROVIDERS} from "angular2/http";
 import {DataService} from "./dependency-injection/data.service";
+import {MusicComponent} from "./music.component";
 
-bootstrap(AppComponent, [ROUTER_PROVIDERS, HTTP_PROVIDERS, DataService]);
+bootstrap(MusicComponent, [ROUTER_PROVIDERS, HTTP_PROVIDERS, DataService]);
