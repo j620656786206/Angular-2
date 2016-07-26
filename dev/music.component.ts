@@ -5,10 +5,14 @@ import {Component} from 'angular2/core';
 import {CoverComponent} from "./music/album-cover.component";
 import {InfoComponent} from "./music/album-info.component";
 import {IntroComponent} from "./music/album-intro.component";
+import {SearchComponent} from "./music/search.component";
 
 @Component({
   selector: 'music-app',
   template: `
+    <div class="top">
+      <search-app></search-app>
+    </div>
     <div class="album-info">
       <div class="cover">
         <cover-app></cover-app>
@@ -22,7 +26,7 @@ import {IntroComponent} from "./music/album-intro.component";
     </div>
     
     `,
-  directives: [CoverComponent, InfoComponent, IntroComponent],
+  directives: [CoverComponent, InfoComponent, IntroComponent, SearchComponent],
   styleUrls: ["src/css/music.css"]
 })
 
