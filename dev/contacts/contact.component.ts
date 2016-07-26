@@ -8,7 +8,6 @@ import {Contact} from "./contact";
 @Component({
   selector: "contact",
   template: `
-    
     <div>
       <div>
         <label for="first-name">First Name:</label>
