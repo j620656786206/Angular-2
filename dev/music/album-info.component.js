@@ -15,7 +15,7 @@ var InfoComponent = (function () {
     InfoComponent = __decorate([
         core_1.Component({
             selector: 'info-app',
-            template: "\n      <h3>Album Title</h3><br>\n      <h3>Album Artist</h3><br>\n      <h3>Release Date</h3><br>\n    ",
+            template: "\n      <h3>Album Title</h3><br>\n      <h3>Album Singer</h3><br>\n      <h3>Release Date</h3><br>\n    ",
         }), 
         __metadata('design:paramtypes', [])
     ], InfoComponent);

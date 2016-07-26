@@ -7,7 +7,7 @@ import {Component} from 'angular2/core';
   selector: 'info-app',
   template: `
       <h3>Album Title</h3><br>
-      <h3>Album Artist</h3><br>
+      <h3>Album Singer</h3><br>
       <h3>Release Date</h3><br>
     `,
 })

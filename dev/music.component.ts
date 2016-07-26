@@ -12,6 +12,7 @@ import {SearchComponent} from "./music/search.component";
   template: `
     <div class="top">
       <search-app></search-app>
+      <album-list></album-list>
     </div>
     <div class="album-info">
       <div class="cover">
