@@ -4,16 +4,19 @@
 import {Component, OnInit} from 'angular2/core';
 import {Album} from "./album";
 import {MusicService} from "./music.service";
+import {InfoComponent} from "./album-info.component";
 
 @Component({
   selector: 'album-list',
   template: `
     <ul>
       <li>
-        {{albums.albumTitle}} {{albums.albumSinger}}
+        {{Album.albumTitle}} {{Album.albumSinger}}
       </li>
     </ul>
+    <info-app></info-app>
     `,
+  directives:[InfoComponent],
   providers:[MusicService]
 })
 

@@ -6,6 +6,7 @@ import {CoverComponent} from "./music/album-cover.component";
 import {InfoComponent} from "./music/album-info.component";
 import {IntroComponent} from "./music/album-intro.component";
 import {SearchComponent} from "./music/search.component";
+import {AlbumListComponent} from "./music/album-list.component";
 
 @Component({
   selector: 'music-app',
@@ -18,16 +19,13 @@ import {SearchComponent} from "./music/search.component";
       <div class="cover">
         <cover-app></cover-app>
       </div>
-      <div class="info">
-        <info-app></info-app>
-      </div>
     </div>
     <div class="intro">
         <intro-app></intro-app>
     </div>
     
     `,
-  directives: [CoverComponent, InfoComponent, IntroComponent, SearchComponent],
+  directives: [CoverComponent, InfoComponent, IntroComponent, SearchComponent, AlbumListComponent],
   styleUrls: ["src/css/music.css"]
 })
 

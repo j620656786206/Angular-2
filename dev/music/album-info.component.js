@@ -11,11 +11,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('angular2/core');
 var InfoComponent = (function () {
     function InfoComponent() {
+        this.album = null;
     }
     InfoComponent = __decorate([
         core_1.Component({
             selector: 'info-app',
-            template: "\n      <h3>Album Title</h3><br>\n      <h3>Album Singer</h3><br>\n      <h3>Release Date</h3><br>\n    ",
+            template: "\n      <!--<label>Album Title</label><br>\n      <label>Album Singer</label><br>\n      <label>Release Date</label><br>-->\n      <input [(ngModel)]=\"selectedalbum.albumTitle\" type=\"text\">\n      <div>\n        album singer: {{selectedalbum.albumSinger}} <br>\n        Release Date: {{selectedalbum.releaseDate}}\n      </div>\n    ",
+            inputs: ["album"]
         }), 
         __metadata('design:paramtypes', [])
     ], InfoComponent);

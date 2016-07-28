@@ -13,14 +13,15 @@ var album_cover_component_1 = require("./music/album-cover.component");
 var album_info_component_1 = require("./music/album-info.component");
 var album_intro_component_1 = require("./music/album-intro.component");
 var search_component_1 = require("./music/search.component");
+var album_list_component_1 = require("./music/album-list.component");
 var MusicComponent = (function () {
     function MusicComponent() {
     }
     MusicComponent = __decorate([
         core_1.Component({
             selector: 'music-app',
-            template: "\n    <div class=\"top\">\n      <search-app></search-app>\n      <album-list></album-list>\n    </div>\n    <div class=\"album-info\">\n      <div class=\"cover\">\n        <cover-app></cover-app>\n      </div>\n      <div class=\"info\">\n        <info-app></info-app>\n      </div>\n    </div>\n    <div class=\"intro\">\n        <intro-app></intro-app>\n    </div>\n    \n    ",
-            directives: [album_cover_component_1.CoverComponent, album_info_component_1.InfoComponent, album_intro_component_1.IntroComponent, search_component_1.SearchComponent],
+            template: "\n    <div class=\"top\">\n      <search-app></search-app>\n      <album-list></album-list>\n    </div>\n    <div class=\"album-info\">\n      <div class=\"cover\">\n        <cover-app></cover-app>\n      </div>\n    </div>\n    <div class=\"intro\">\n        <intro-app></intro-app>\n    </div>\n    \n    ",
+            directives: [album_cover_component_1.CoverComponent, album_info_component_1.InfoComponent, album_intro_component_1.IntroComponent, search_component_1.SearchComponent, album_list_component_1.AlbumListComponent],
             styleUrls: ["src/css/music.css"]
         }), 
         __metadata('design:paramtypes', [])

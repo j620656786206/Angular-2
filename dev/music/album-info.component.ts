@@ -2,16 +2,23 @@
  * Created by j on 2016/7/25.
  */
 import {Component} from 'angular2/core';
+import {Album} from "./album";
 
 @Component({
   selector: 'info-app',
   template: `
-      <h3>Album Title</h3><br>
-      <h3>Album Singer</h3><br>
-      <h3>Release Date</h3><br>
+      <!--<label>Album Title</label><br>
+      <label>Album Singer</label><br>
+      <label>Release Date</label><br>-->
+      <input [(ngModel)]="selectedalbum.albumTitle" type="text">
+      <div>
+        album singer: {{selectedalbum.albumSinger}} <br>
+        Release Date: {{selectedalbum.releaseDate}}
+      </div>
     `,
+  inputs:["album"]
 })
 
 export class InfoComponent {
-
+  public album: Album = null;
 }
